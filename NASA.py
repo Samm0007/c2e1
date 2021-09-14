@@ -11,4 +11,4 @@ volumen_reservorio = volumen_reservorio - (2*volumen_reservorio/100)
 print(f"El volumen del reservorio descontando la evaporacion {volumen_reservorio}m3")
 volumen_reservorio = volumen_reservorio - 2.5e5
 print(f"El volumen del reservorio descontando el agua en regiones áridas {volumen_reservorio}m3")
-print(f"El volumen del reservorio es {volumen_reservorio}m3")
+print(f"El volumen del reservorio es {volumen_reservorio}m3, en notación cietífica {volumen_reservorio:.1E}")
